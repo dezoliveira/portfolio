@@ -5,6 +5,24 @@
   padding: 0;
   box-sizing: border-box;
   text-decoration: none;
+  scroll-behavior: smooth;
+}
+
+/* Custom Scroll Bar CSS */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+  background: #6e93f7;
+  border-radius: 12px;
+  transition: all 0.3s ease;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #4070f4;
 }
 
 /* Navbar */
@@ -100,7 +118,7 @@ nav .menu-btn{
   height: 100vh;
   width: 100%;
   background: url("/images/background.jpg") no-repeat;
-  background-position:right;
+  background-position: right;
   background-size: cover;
   background-attachment: fixed;
   font-family: 'Work Sans', sans-serif;
@@ -155,6 +173,10 @@ nav .menu-btn{
 }
 
 /* About */
+section{
+
+}
+
 section .content{
   width: 80%;
   margin: 40px auto;
@@ -353,6 +375,11 @@ section .button button:hover{
   color: #fff;
 }
 
+.contact{
+  background: #f0f8ff;
+  padding: 20px 0;
+}
+
 /* Contato */
 .contact .text{
   text-align: center;
@@ -360,6 +387,29 @@ section .button button:hover{
   width: 80%;
 }
 
+/* Footer */
+footer .text{
+  color: #fff;
+  background: rgb(55, 76, 197);
+  text-align: center;
+  padding: 15px 0;
+}
+
+footer .text span{
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+footer .text span a{
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+footer .text span a:hover{
+  text-decoration: underline;
+}
 /* Responsive CSS */
 @media (max-width: 1190px){
   .about .content{
