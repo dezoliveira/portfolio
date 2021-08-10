@@ -107,17 +107,23 @@ nav .menu-btn,
   right: 30px;
   top: 20px;
   display: none;
+  cursor: pointer;
 }
 
 nav .menu-btn{
   color: rgb(55, 76, 197);
 }
 
+nav.sticky .menu-btn{
+  color: #fff
+}
+
+
 /* Home */ 
 .home{
   height: 100vh;
   width: 100%;
-  background: url("/images/background.jpg") no-repeat;
+  background: url("/images/background14.jpg") no-repeat;
   background-position: right;
   background-size: cover;
   background-attachment: fixed;
@@ -410,6 +416,20 @@ footer .text span a{
 footer .text span a:hover{
   text-decoration: underline;
 }
+
+.scroll-btn i{
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 10px 12px;
+  background: rgb(55, 76, 197);
+  color: #fff;
+  font-size: 18px;
+  border-radius: 6px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+
+}
+
 /* Responsive CSS */
 @media (max-width: 1190px){
   .about .content{
@@ -482,6 +502,11 @@ footer .text span a:hover{
     margin: 10px 0;
     font-size: 24px;
     color: #fff;
+  }
+
+  nav.sticky .navbar .menu li a:hover{
+     color: #4070f4;
+
   }
 
   .navbar .media-icons{
