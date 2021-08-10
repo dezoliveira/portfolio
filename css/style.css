@@ -353,6 +353,12 @@ section .button button:hover{
   color: #fff;
 }
 
+/* Contato */
+.contact .text{
+  text-align: center;
+  margin: auto;
+  width: 80%;
+}
 
 /* Responsive CSS */
 @media (max-width: 1190px){
@@ -361,6 +367,10 @@ section .button button:hover{
   }
 
   .skills .content{
+    width: 90%;
+  }
+
+  .services .content{
     width: 90%;
   }
 }
@@ -379,6 +389,14 @@ section .button button:hover{
   .about .about-details .left{
     width: 90%;
     margin: 40px 0;
+  }
+
+  .services .boxes .box{
+    width: calc(100% / 2 - 20px);
+  }
+
+  .contact .text{
+    width: 90%;
   }
 }
 
@@ -446,6 +464,14 @@ section .button button:hover{
   .skills .skill-details .boxes{
     width: 90%;
     margin: 40px 0;
+  }
+
+  .services .boxes .box{
+    width: 100%;
+  }
+
+  .contact .text{
+    width: 100%;
   }
 }
 
