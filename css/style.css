@@ -148,7 +148,7 @@ nav.sticky .menu-btn{
   height: 100vh;
   width: 100%;
   background: url("../images/background2.jpg") no-repeat;
-  background-position: right;
+  background-position: initial;
   background-size: cover;
   background-attachment: fixed;
   font-family: 'Work Sans', sans-serif;
@@ -200,6 +200,7 @@ nav.sticky .menu-btn{
   color: var(--second-color);
   background-color: var(--second-alt-color);
   border-color: var(--second-color);
+  cursor: pointer;
 }
 
 /* About */
@@ -296,6 +297,7 @@ section .button button:hover{
   color: var(--second-color);
   background-color: var(--second-alt-color);
   border-color: var(--second-color);
+  cursor: pointer;
 }
 
 /* Skills */
@@ -456,6 +458,10 @@ footer .text span a:hover{
 
 /* Responsive CSS */
 @media (max-width: 1190px){
+  .home{
+    background-position: left;
+  }
+  
   .about .content{
     width: 85%;
   }
@@ -470,6 +476,10 @@ footer .text span a:hover{
 }
 
 @media (max-width: 1090px){
+  .home{
+    background-position: left;
+  }
+
   .about .about-details{
     flex-direction: column;
   }
@@ -495,6 +505,11 @@ footer .text span a:hover{
 }
 
 @media (max-width: 971px){
+
+  .home{
+    background-position: left;
+  }
+
   .about .about-details .right img{
     height: 350px;
     width: 350px;
@@ -575,6 +590,11 @@ footer .text span a:hover{
 }
 
 @media (max-width: 510px){
+
+  .home{
+    background-position: left;
+  }
+
   .home .textos .texto-2{
     font-size: 55px;
   }
