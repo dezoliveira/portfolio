@@ -21,14 +21,15 @@ span{
 }
 
 :root{
-  --primary-color: #434a4e;
+  --primary-color: #333536;
   /* --second-color: rgb(55, 76, 197); */
   --second-color: rgb(70, 48, 95);
   --second-alt-color: #fff;
   /* --text-color: #0E2431; */
   --text-color: #eee2e2;
   /* --section-bg: #f0f8ff; */
-  --section-bg: #333536;
+  --section-bg: #434a4e;
+  --skills: rgb(116, 75, 163);
 }
 
 /* Custom Scroll Bar CSS */
@@ -352,13 +353,13 @@ section .button button:hover{
 
 .skill-details .boxes .box .topic{
   font-size: 20px;
-  color: var(--second-color);
+  color: var(--skills);
 }
 
 .skill-details .boxes .box .num{
   font-size: 60px;
   font-weight: 500;
-  color: var(--second-color);
+  color: var(--skills);
 }
 
 /* Serviços */
