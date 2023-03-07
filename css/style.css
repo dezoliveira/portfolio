@@ -23,13 +23,13 @@ span{
 :root{
   --primary-color: #333536;
   /* --second-color: rgb(55, 76, 197); */
-  --second-color: rgb(70, 48, 95);
+  --second-color: rgb(0, 148, 218);
   --second-alt-color: #fff;
   /* --text-color: #0E2431; */
   --text-color: #eee2e2;
   /* --section-bg: #f0f8ff; */
   --section-bg: #434a4e;
-  --skills: rgb(116, 75, 163);
+  --skills: rgb(50, 148, 218);
 }
 
 /* Custom Scroll Bar CSS */
@@ -147,7 +147,7 @@ nav.sticky .menu-btn{
 .home{
   height: 100vh;
   width: 100%;
-  background: url("../images/background2.jpg") no-repeat;
+  background: url("../images/background7.jpg") no-repeat;
   background-position: initial;
   background-size: cover;
   background-attachment: fixed;
@@ -204,10 +204,6 @@ nav.sticky .menu-btn{
 }
 
 /* About */
-section{
-
-}
-
 section .content{
   width: 80%;
   margin: 40px auto;
@@ -242,6 +238,11 @@ section .title span::after{
   left: 50%;
   transform: translateX(-50%);
   bottom: -7px;
+}
+
+section a {
+  text-decoration: none;
+  color: var(--second-color);
 }
 
 .about .about-details{
@@ -403,8 +404,13 @@ section .button button:hover{
   color: var(--second-color);
 }
 
-.services .boxes .box:hover .topic{
+.services .boxes .box:hover .topic {
   color: var(--second-alt-color);
+}
+
+.services .boxes .box:hover a {
+  color: var(--second-alt-color);
+  font-weight: bold;
 }
 
 .contact{
